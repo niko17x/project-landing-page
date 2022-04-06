@@ -1,0 +1,59 @@
+body {
+    height: 100vh;
+    display: flex;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+/*Header/Nav section.*/
+.nav-section {
+    background-color: rgb(34, 34, 34);
+    display: flex;
+}
+.logo {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+    padding: 12px 0;
+}
+a {
+    font-size: 12px;
+    color: lightslategray;
+    text-decoration: none;
+    text-align: center;
+
+}
+.nav-links {
+    display: flex;
+    gap: 15px;
+    margin: auto;
+}
+
+/*Section 1.*/
+.section-1 {
+    background-color: #1f2937;
+    display: flex;
+}
+.section-1-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+
+}
+.section-1-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.section-1-main {
+    display: flex;
+    flex-direction: column;
+
+
+}
+.section-1-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
